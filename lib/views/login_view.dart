@@ -17,7 +17,7 @@ class _LoginViewState extends State<LoginView> {
   TextEditingController nameController = TextEditingController();
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-
+  int a = 0;
   final _formKey = GlobalKey<FormState>();
 
   @override
